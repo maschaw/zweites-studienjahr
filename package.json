@@ -4,7 +4,7 @@
   "description": "...",
   "main": "index.html",
   "scripts": {
-    "start": "browser-sync start -s -w",
+    "start": "browser-sync start --no-ui -s -w",
     "build": "echo This is a static template, there is no bundler or bundling involved!"
   },
   "repository": {
@@ -12,7 +12,6 @@
     "url": "git+https://github.com/KHBerlin/zweites-studienjahr.git"
   },
   "dependencies": {
-    "serve": "^11.2.0",
-    "browser-sync" : "^2.26"
+    "browser-sync": "^2.26"
   }
 }
