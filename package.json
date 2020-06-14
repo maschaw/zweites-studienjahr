@@ -1,0 +1,17 @@
+{
+  "name": "zweites-studienjahr",
+  "version": "0.0.1",
+  "description": "...",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --no-ui -s -w",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KHBerlin/zweites-studienjahr.git"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26"
+  }
+}
