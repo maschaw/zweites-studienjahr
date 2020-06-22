@@ -1,8 +1,10 @@
 <html>
   <head>
-  <!--<meta http-equiv="refresh" content="0.2" />-->
+  <meta http-equiv="refresh" content="0.2" />
 
     <style>
+    body{ font-family: Arial;}
+
     </style>
   </head>
   <body>
@@ -14,12 +16,13 @@
 
   <script>
     document.getElementById("los").style.fontSize = Math.random() * 200 + 100 + "px";
-    document.getElementById("los").style.color = "rgb(" + Math.random()*20 + ",240,240)";
+    document.getElementById("los").style.color = "rgb(" + Math.random()*20 + ",240,40)";
     document.getElementById("los").style.letterSpacing = Math.random()*"-50" + 10 + "px";
+
 function random_bg_color() {
-    var x = Math.floor(Math.random() * 60);
-    var y = Math.floor(Math.random() * 20);
-    var z = Math.floor(Math.random() * 220);
+    var x = Math.floor(Math.random() * 220);
+    var y = Math.floor(Math.random() * 220);
+    var z = Math.floor(Math.random() * 240);
     var bgColor = "rgb(" + x + "," + y + "," + z + ")";
  console.log(bgColor);
   
